@@ -6,18 +6,16 @@
 
 int main(void)
 {
-	char c;
-	char b;
+	int i = 97;
+	int b = 65;
 
-	c = 'a';
-	b = 'A';
 	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
+		(i <= 122) {
+			putchar(i);
+			i++;
 		}
 	while
-		(b <= 'z') {
+		(b <= 90) {
 			putchar(b);
 			b++;
 		}
