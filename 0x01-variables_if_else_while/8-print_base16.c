@@ -3,7 +3,7 @@
 /**
  * main - Print numbers 0 to 9 and letters a to f.
  *
- * return: Always 0 (sucess)
+ * Return: Always 0 (sucess)
  */
 int main(void)
 {
