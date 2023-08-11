@@ -1,8 +1,7 @@
 #include <stdio.h>
-
 /**
- * main - Print the letters of the alphabet excluding q and e.
- * Return: Always 0 (success)
+ * main - Print lowercase letter except q and e.
+ * Return: Always 0
  */
 int main(void)
 {
@@ -10,13 +9,12 @@ int main(void)
 
 	while (i <= 122)
 	{
-		if (i == 101 || i==113)
+		if (i == 101 || i == 113)
 		{
 			i++;
 			continue;
 		}
-
-			putchar(i);
+		putchar(i);
 		i++;
 	}
 	putchar('\n');
