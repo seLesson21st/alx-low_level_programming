@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - Print every of the day the day of Jack Bauer
- * Return: 0
+ * Return: ...
  */
 void jack_bauer(void)
 {
