@@ -2,8 +2,8 @@
 
 /**
  *print_sign - Prints the sign of a number
- * @i: The number to be checked
- * Return: 1 for positive number, -1 for negative number or zero for anything else
+ *@i: The number to be checked
+ *Return: 1 for positive number, -1 for negative number or zero for anything else
  */
 
 int print_sign(int i)
