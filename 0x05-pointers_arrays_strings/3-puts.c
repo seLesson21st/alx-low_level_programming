@@ -6,14 +6,14 @@
  * Return: String and a new line
  */
 
-void _put(char *str)
+void _puts(char *str)
 {
-	int a = 0;
+	int c = 0;
 
-	while (str[a])
+	while (str[c])
 	{
-		_putchar(str[a]);
-		a++;
+		_putchar(str[c]);
+		c++;
 	}
 	_putchar('\n');
 }
