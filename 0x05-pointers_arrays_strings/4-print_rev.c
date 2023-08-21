@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _rev - unction that prints a string, in reverse, followed by a new line
+ * print_rev - unction that prints a string, in reverse, followed by a new line
  * @i: string refence pointer
  * Return: Always 0
  */
 
-void _rev(char *i)
+void print_rev(char *i)
 {
 	int begin = 0;
 
