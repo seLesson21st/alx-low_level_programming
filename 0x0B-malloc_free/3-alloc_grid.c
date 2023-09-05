@@ -6,7 +6,7 @@
  *  a 2 dimensional array of integers
  *  @width: The width of the array
  *  @height: The height of the array
- *  Return The 2 dimensional array, NULL if faiure
+ *  Return: The 2 dimensional array, NULL if faiure
  */
 
 int **alloc_grid(int width, int height)
