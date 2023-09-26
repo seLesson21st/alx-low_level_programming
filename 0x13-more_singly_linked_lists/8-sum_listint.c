@@ -17,6 +17,6 @@ int sum_listint(listint_t *head)
 		gross += fleeting->n;
 		fleeting = fleeting->next;
 	}
-	return (int);
+	return (sum);
 }
 
