@@ -12,11 +12,11 @@ int sum_listint(listint_t *head)
 	listint_t *fleeting = head;
 	int gross = 0;
 
-	while (fleeting)
+	while (fleeting != NULL)
 	{
 		gross += fleeting->n;
 		fleeting = fleeting->next;
 	}
-	return (sum);
+	return (gross);
 }
 
