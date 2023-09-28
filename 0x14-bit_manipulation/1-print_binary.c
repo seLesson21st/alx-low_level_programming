@@ -8,8 +8,20 @@
 
 void print_binary(unsigned long int n)
 {
-	char red;
-	unsigned long int factor, scan;
+	int x, scan = 0;
+	unsigned long int factor;
 
-	red = 0;
-
+	for (x = 63; x >= 0; x--)
+	{
+		factor = n >> x;
+		if (factor & 1)
+		{
+			_putchar('1');
+			scan++;
+		}
+		else if (scan)
+		{
+			_putchar('0');
+		}
+	}
+}
